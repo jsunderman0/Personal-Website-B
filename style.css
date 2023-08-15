@@ -99,6 +99,10 @@ footer{
         flex-direction: column;
         margin: 2vh;
     }
+    .Jack{
+        width: 50vw;
+        height: 50vw;
+    }
     .section1{
         flex-direction: column;
         margin:1vh;
