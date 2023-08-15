@@ -13,6 +13,12 @@ nav > a {
     background-color: black;
     color: white;
 }
+a:hover{
+    background-color: grey;
+}
+a:active{
+    border: white;
+}
 .home{
     display:flex;
     justify-content: space-around;
