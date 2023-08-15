@@ -16,8 +16,8 @@ nav > a {
 a:hover{
     background-color: grey;
 }
-a:active{
-    border: white;
+nav a.selected{
+    border: solid 10px grey;
 }
 .home{
     display:flex;
@@ -37,4 +37,54 @@ a:active{
 }
 h1{
    font-size: 72px; 
+}
+.main{
+    display:flex;
+    justify-content:space-around;
+}
+.section1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 3;
+}
+.section2{
+    flex:1;
+}
+.section1 > div{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+}
+.portfolio{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio > div > p {
+    border: solid 2px black;
+    margin-bottom: 5vh;
+}
+footer{
+    width:100vh;
+    height: 5vh;
+    background-color: blue;
+}
+@media (max-width: 500px){
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        text-align: center;
+        margin: 1vh;
+    }
+    .main{
+        flex-direction: column;
+        margin: 2vh;
+    }
+    .section1{
+        flex-direction: column;
+        margin:1vh;
+    }
 }
