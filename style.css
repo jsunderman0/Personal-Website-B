@@ -4,7 +4,7 @@ Body{
 nav{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 12vh;
+    
 }
 nav > a {
     border: solid 3px black;
