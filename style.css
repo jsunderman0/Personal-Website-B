@@ -1,0 +1,15 @@
+Body{
+    font-family: verdana;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav > a {
+    border: solid 3px black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
